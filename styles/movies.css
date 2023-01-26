@@ -68,7 +68,7 @@ h2 {
     position: relative;
 }
 .details-image {
-    width: var(--details-image-width);
+    width: auto;
     height: var(--details-image-height);
     border-radius: 25%;
 }
