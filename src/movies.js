@@ -57,4 +57,4 @@ function getLengthOverview(string){
          i++;
      } while (newStr.length <= 50);
 return newStr;
-}
+} 
