@@ -49,16 +49,6 @@ function getListItems() {
     return itemsArray.join('');
 }
 function getLengthOverview(string){
-    // stringArray = string.split(' ');
-    // let i = 0;
-    // let newStr ='';
-    // if(string.length > 50) {do {
-    //      newStr += (stringArray[i] + " ");
-    //      i++;
-    //  } while ((newStr.length +   i)<= 50);
-    // } else {
-    //     newStr = string;
-    // }
     limit = 50
     while(!isDelimeter(string[limit])){
         limit--;
